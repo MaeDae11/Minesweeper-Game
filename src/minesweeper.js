@@ -27,3 +27,22 @@ const generatePlayerBoard = (numberOfRows, numberOfColumns) => {
     } return board
 };
 
+const generatingBombBoard = (numberOfRows, numberOfColumns, numberOfBombs) => {
+    var board = [];
+    for (let i = 1; i < numberOfRows; i++){
+        var row = [];
+        for(let j = 0; j < numberOfColumns; j++){
+            row.push(null);
+        } board.push(row);
+    } 
+    var numberOfBombsPlaced = 0;
+    while (numberOfBombsPlaced < numberOfBombs){
+        var randomRowIndex = 
+    }
+    
+    
+    
+    
+    
+    return board
+};
